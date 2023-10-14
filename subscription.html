@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <script defer src="js/active.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Subscription</title>
+  </head>
+  <body>
+    <section id="navbar">
+      <nav class="">
+        <div class="logo">
+          <a href="/"><img src="./images/logo/nav.png" alt="" /></a> 
+        </div>
+        <label for="check" class="checkbtn">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="check" />
+        <ul class="para-1">
+          <li class="nav-image"><img src="images/logo/nav.png" alt=""><label for="check" class="checkbtn"><i class="fa-sharp fa-solid fa-circle-xmark"></i></label> </li>
+          <li><a href="/" class="">Home</a></li>
+          <li><a href="/subscription.html" class="activee">Services</a></li>
+          <li><a href="/subscription-confirm.html">Pages</a></li>
+          <!-- <li><a href="#">Blog</a></li>
+          <li><a href="#">Pricing</a></li> -->
+          <li><button class="heading-6"><a href="/contact.html">Get Services</a></button></li>
+        </ul>
+      </nav>
+    </section>
+    <div class="page-title container">
+      <p class="heading-4">Home/ Subscription</p>
+    </div>
+    <section id="subscription-package">
+      <div class="subscription-package-body container">
+        <div class="subscription-type">
+          <p class="heading-5">Basic</p>
+        </div>
+        <div class="subscription-price">
+          <p>
+            <span class="heading-3">$20.00 /</span>
+            <span class="heading-5">Month</span>
+          </p>
+        </div>
+        <div class="subscription-details">
+          <ul>
+            <li class="subscription-details-l1">
+              <div>
+                <i class="fa-regular fa-circle-check"></i>
+                <p class="para-2">Powerful Admin Panel</p>
+              </div>
+            </li>
+            <li class="subscription-details-l2">
+              <div>
+                <i class="fa-sharp fa-regular fa-circle-xmark"></i>
+                <p class="para-2">Data analytics tools</p>
+              </div>
+            </li>
+            <li class="subscription-details-l3">
+              <div>
+                <i class="fa-sharp fa-regular fa-circle-xmark"></i>
+                <p class="para-2">iOS and Android apps</p>
+              </div>
+            </li>
+            <li class="subscription-details-l4">
+              <div>
+                <i class="fa-regular fa-circle-check"></i>
+                <p class="para-2">Support via E-mail and Phone</p>
+              </div>
+            </li>
+            <li class="subscription-details-l5">
+              <div>
+                <i class="fa-regular fa-circle-check"></i>
+                <p class="para-2">ERP management system</p>
+              </div>
+            </li>
+            <li class="subscription-details-l6">
+              <div>
+                <i class="fa-sharp fa-regular fa-circle-xmark"></i>
+                <p class="para-2">iOS and Android apps</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="payment-prodcedure">
+      <div class="payment-procedure container">
+        <div class="billing-info">
+          <div class="payment-procedure-head">
+            <p class="heading-5">
+              Billing information <i class="fa-regular fa-circle-question"></i>
+            </p>
+          </div>
+          <div class="payment-procedure-body">
+            <p class="para-3">
+              We'll use this information to issue the first invoice. You'll be
+              able to update the details for future invoices from your account
+              profile.
+            </p>
+            <div class="billing-info-form">
+              <form action="">
+                <div class="billing-input">
+                  <label for="billing-country" class="heading-6"
+                    >Country *</label
+                  >
+                  <select name="" id="billing-country" class="form-select">
+                    <option value="">Select</option>
+                  </select>
+                </div>
+                <div class="billing-input">
+                  <label for="billing-zip" class="heading-6">Zip code</label>
+                  <input type="text" id="billing-zip" class="heading-6" />
+                </div>
+                <div class="billing-input">
+                  <label for="billing-state" class="heading-6"
+                    >State/Region*</label
+                  >
+                  <input type="text" id="billing-state" class="heading-6" />
+                </div>
+                <div class="billing-input">
+                  <label for="billing-city" class="heading-6">City*</label>
+                  <input type="text" id="billing-city" class="heading-6" />
+                </div>
+                <div class="billing-input">
+                  <label for="billing-address" class="heading-6"
+                    >Billing address*</label
+                  >
+                  <input type="text" id="billing-address" class="heading-6" />
+                </div>
+                <div class="billing-input">
+                  <label for="billing-first-name" class="heading-6"
+                    >First name*</label
+                  >
+                  <input
+                    type="text"
+                    id="billing-first-name"
+                    class="heading-6"
+                  />
+                </div>
+                <div class="billing-input">
+                  <label for="billing-last-name" class="heading-6"
+                    >Last name*</label
+                  >
+                  <input type="text" id="billing-last-name" class="heading-6" />
+                </div>
+                <div class="billing-input">
+                  <label for="billing-email" class="heading-6"
+                    >Billing email*</label
+                  >
+                  <input type="text" id="billing-email" class="heading-6" />
+                </div>
+                <div
+                  class="billing-input"
+                  style="flex-direction: row; align-items: center"
+                >
+                  <input
+                    type="checkbox"
+                    id="billing-company"
+                    class="heading-6"
+                  />
+                  <label for="billing-company" class="heading-6"
+                    >Are you a comapny?</label
+                  >
+                </div>
+                <div class="billing-input">
+                  <label for="billing-company-name" class="heading-6"
+                    >Comapny name*</label
+                  >
+                  <input
+                    type="text"
+                    id="billing-company-name"
+                    class="heading-6"
+                  />
+                </div>
+                <div class="billing-input">
+                  <label for="billing-vat" class="heading-6"
+                    >Vat Number* <i class="fa-regular fa-circle-question"></i
+                  ></label>
+                  <input type="text" id="billing-vat" class="heading-6" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="payment-method">
+          <div class="payment-procedure-head">
+            <p class="heading-5">Payment-method</p>
+          </div>
+          <div class="payment-procedure-body">
+            <div class="payment-method-type">
+              <div class="payment-method-type-body">
+                <input type="radio" id="credit-debit" name="payment" />
+                <label for="credit-debit" class="para-1"
+                  >Credit Card/ Debit Card</label
+                >
+              </div>
+              <div class="credit-debit-cards">
+                <img src="images/subscription/Visa.png" alt="" /><img
+                  src="images/subscription/Visa.png"
+                  alt=""
+                /><img src="images/subscription/Visa.png" alt="" />
+              </div>
+            </div>
+            <div class="payment-method-type">
+              <div class="payment-method-type-body">
+                <input type="radio" id="paypal" name="payment" />
+                <label for="paypal"
+                  ><img src="images/subscription/PayPal.png" alt=""
+                /></label>
+              </div>
+            </div>
+            <div class="payment-method-type">
+              <div class="payment-method-type-body">
+                <input type="radio" id="paypal" name="payment" />
+                <label for="paypal"
+                  ><img src="images/subscription/Nagad.png" alt=""
+                /></label>
+              </div>
+            </div>
+            <div class="payment-method-type">
+              <div class="payment-method-type-body">
+                <input type="radio" id="paypal" name="payment" />
+                <label for="paypal"
+                  ><img src="images/subscription/BKash.png" alt=""
+                /></label>
+              </div>
+            </div>
+            <div class="payment-procedure-info">
+              <div class="payment-procedure-input">
+                <label for="payment-first-name" class="heading-6"
+                  >First Name</label
+                >
+                <input type="text" id="payment-first-name" class="heading-6" />
+              </div>
+              <div class="payment-procedure-input">
+                <label for="payment-last-name" class="heading-6"
+                  >Last Name</label
+                >
+                <input type="text" id="payment-Last-name" class="heading-6" />
+              </div>
+              <div class="payment-procedure-input">
+                <label for="payment-card" class="heading-6">Card Number</label>
+                <input type="text" id="payment-card" class="heading-6" />
+              </div>
+              <div class="payment-procedure-input">
+                <label for="payment-expiration" class="heading-6"
+                  >Expiration Date</label
+                >
+                <input type="text" id="payment-expiration" class="heading-6" />
+              </div>
+              <div class="payment-procedure-input">
+                <label for="payment-security" class="heading-6"
+                  >Security Code</label
+                >
+                <input type="text" id="payment-security" class="heading-6" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order-details">
+          <div class="payment-procedure-head">
+            <p class="heading-5">Order Details</p>
+          </div>
+          <div class="payment-procedure-body">
+            <div class="order-details-record">
+              <div class="order-details-form">
+                <label for="promo-code" class="heading-6"
+                  >Have a promo code?</label
+                >
+                <input type="text" id="promo-code" />
+                <button class="promo-button heading-5"><a href="">Apply</a></button>
+              </div>
+              <div class="order-details-big">
+                <p class="para-1">
+                  Basic Plan <i class="fa-regular fa-circle-question"></i>
+                </p>
+                <p class="para-1">20.00 USD</p>
+              </div>
+              <div class="vat-tax">
+                <p class="para-1">Vat/ Sales taxes (0%)</p>
+                <p class="para-1">0.00 USD</p>
+              </div>
+              <div class="order-output">
+                <p class="heading-6">Total</p>
+                <p class="heading-6">20.00 USD/ Month</p>
+              </div>
+            </div>
+          </div>
+          <div class="order-button">
+            <button class="heading-5"><a href="">Confirm & Pay</a></button>
+          </div>
+          <div class="terms">
+            <p class="heading-6">
+              By clicking "Confirm and pay" you agree to the
+              <a href="#">Terms and Conditions.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer" class="section-spacing">
+      <div class="footer-heading">
+        <div class="container">
+          <div class="footer-logo">
+            <img src="images/logo/footer.png" alt="" />
+          </div>
+          <div class="footer-contact">
+            <div class="footer-phone">
+              <div class="footer-phone-list">
+                <div class="footer-phone-details">
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <p class="para-1">+0987654321</p>
+                </div>
+                <div class="footer-phone-details">
+                  <i class="fa-solid fa-phone-volume"></i>
+                  <p class="para-1">+0987654321</p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-location">
+              <i class="fa-sharp fa-solid fa-location-dot"></i>
+              <p class="para-1">
+                Your Location Is here, Your House No, Road No, City and Zip code
+                with Country
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-body">
+        <div class="container">
+          <div class="footer-about">
+            <p class="heading-3">About Us</p>
+            <p class="para-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+              pretium in vitae augue porta amet varius. Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit.
+            </p>
+            <div class="footer-icons">
+              <div>
+                <img src="images/footer/fb.png" alt="">
+              </div>
+              <div>
+                <img src="images/footer/twitter.png" alt="">
+              </div>
+              <div>
+                <img src="images/footer/linkedin.png" alt="">
+              </div>
+              <div>
+                <img src="images/footer/instagram.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="contact-link">
+            <div>
+              <p class="heading-6">Our Link</p>
+              <ul>
+                <li class="para-1">Home</li>
+                <li class="para-1">Service</li>
+                <li class="para-1">Feature</li>
+                <li class="para-1">Blog</li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact-services">
+            <div>
+              <p class="heading-6">Our Service</p>
+              <ul>
+                <li class="para-1">Strategy & Research</li>
+                <li class="para-1">Web Development</li>
+                <li class="para-1">Web Solution</li>
+                <li class="para-1">Digital Marketing</li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact-others">
+            <div>
+              <p class="heading-6">Others</p>
+              <ul>
+                <li class="para-1">Terms & Condition</li>
+                <li class="para-1">Privacy & Policy</li>
+                <li class="para-1">Contact Us</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="copyright">
+      <p class="para-1">Copyright © 2023 SAAS. All rights reserved.</p>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
